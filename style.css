@@ -1,0 +1,266 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.navbar{
+    height: 100%;
+    background-color: #e2e2df;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.nav-logo{
+height: 50px;
+  width: 115px;
+}
+.logo{
+    background-image: url("mainpic.png");
+    height: 50px;
+    width: 50px;
+    background-size: cover;
+    justify-content: center;
+  
+}
+.border{
+    border: 2px solid transparent;
+}
+.border:hover{
+    border: 2px solid white;
+}
+/**Nav box 2 **/
+.add-icon{
+    display: flex;
+    align-items: center;
+}
+
+.add-1{
+    color: #1f1a1a;
+    height: 15px;
+    font-size: 12px;
+    margin-left: 15px;
+}
+.add-2{
+    height: 16px;
+    color: #ffffff;
+font-size: 14px;
+margin-left: 3px;
+}
+
+
+/**Box 3 search**/
+body{
+    overflow-x: hidden;
+}
+.nav-search{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: aqua;
+   width: 620px;
+   height: 40px;
+   border-radius: 5px;
+}
+.nav-search:hover{
+border: 2px solid orange;
+}
+.select{
+border-top-left-radius:4px ;
+border-bottom-left-radius:4px ;
+background-color: rgb(21, 219, 245);
+    width: 50px;
+    color: rgb(128, 119, 119);
+    text-align: center;
+    border: none;
+}
+.Search{
+    width: 100%;
+    font-size: 1rem;
+    border: none;
+   
+}
+.search-icon{
+    width: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    background-color: rgb(21, 219, 245);
+    border-top-right-radius:4px ;
+    border-bottom-right-radius:4px ;
+    color: rgb(9, 10, 10);
+}
+
+/**Box 4**/
+
+span{
+    height: 15px;
+    width: 70px;
+    font-size: 0.7rem;
+}
+.nav-2{
+    font-size: 0.85rem;
+    font-weight: 900;
+    
+}
+
+/**Box 5 Cart**/
+.cart{
+    display: flex;
+    font-size: 0.85rem;
+    font-weight: 700;
+  position: relative;
+  top: 0.40rem;
+  gap: 10px;
+}
+.cart i{
+   
+font-size: 20px;
+
+
+}
+.cart p{
+    position: relative;
+    top: 0.30rem;
+}
+
+
+/* Panel */
+
+.panel{
+    display: flex;
+    background-color: #222f32;
+    height: 40px;
+    color: white;
+    /* Vertical Centre */
+    align-items: center;
+    /* Horizontal Centre */
+    justify-content: space-evenly;
+    
+}
+.ops{
+    width: 1000px;
+    font-size: 0.85rem;
+    display: flex;
+}
+.ops p{
+    /* Same line */
+    display: inline;
+    margin: 5px 0 6px;
+    padding: 8px 9px;
+}
+#p1 :hover{
+    border: 2px solid white;
+}
+#p2 :hover{
+    border: 2px solid white;
+}
+#p3 :hover{
+    border: 2px solid white;
+}
+#p4 :hover{
+    border: 2px solid white;
+}
+#p5 :hover{
+    border: 2px solid white;
+}
+#p6 :hover{
+    border: 2px solid white;
+}
+/* Hero Section */
+/* .hero-section{
+    background-image: url("hero-image.jpg");
+    height: 350px;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+} */
+ .hero-img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+ }
+.hero-msg{
+    background-color: rgb(178, 184, 192);
+    color: black;
+    height: 40px;
+    
+    display: flex;
+    /* Vertically Centre */
+    align-items: center;
+    /* Horizontally Centre */
+    justify-content: center;
+    font-size: 0.85rem;
+    width: 100%;
+    margin-bottom: 25px;
+}
+.hero-msg a{
+    color: #007185;
+}
+
+
+
+/* Shop Section */
+
+.shop-section{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: #e2e7e6;
+}
+
+.box{
+    height: 400px;
+    width: 23%;
+    background-color: white;
+    padding: 20px 0 15px;
+    margin-top: 18px;
+}
+.box-img{
+    height: 300px;
+    background-size: cover;
+    margin-top: 1rem;
+}
+.box-content{
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+.box-content p{
+    color: #007185;
+}
+
+
+
+/* Footer */
+footer{
+    margin-top: 18px;
+}
+.foot-panel{
+    height: 50px;
+    background-color: #37475a;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.85rem;
+}
+.foot-panel2{
+    background-color: #222f3d;
+    color: white;
+    height: 300px;
+    display: flex;
+    justify-content: space-evenly;
+}
+ul{
+    margin-top: 20px;
+}
+ul a{
+    display: block;
+    font-size: 0.85rem;
+    margin-top: 10px;
+    color: #dddddd;
+}
+#box:hover{
+    border: 2px solid goldenrod;
+}
